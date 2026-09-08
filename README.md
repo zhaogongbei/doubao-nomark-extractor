@@ -11,6 +11,18 @@
 - **可选批量下载**：`--save-dir` 一键把资源保存到本地目录
 - **零服务端部署**：无需起服务，既可作为 Agent 技能调用，也可独立 CLI 使用
 
+## 演示效果
+
+以下是一次完整的"生成图片 → 去除水印 → 保存本地"操作演示（[演示链接](https://www.doubao.com/thread/xKQ2NpgMHDKANPrit)）：
+
+**对话流程：**
+
+<img src="docs/images/demo-conversation.png" width="380" alt="对话流程演示">
+
+**生成结果（1600×1600，无水印原图）：**
+
+<img src="docs/images/demo-generated-1600x1600.png" width="420" alt="生成结果演示">
+
 ## 目录结构
 
 ```
