@@ -88,6 +88,8 @@ python scripts/parse.py "https://www.qianwen.com/share/chat/xxxxxx" --raw
 
 本技能封装自开源项目 **[ihmily/doubao-nomark](https://github.com/ihmily/doubao-nomark)**（MIT License，Copyright (c) 2026 Hmily）。
 
+感谢社区 [linux.do](https://linux.do/) 的讨论与反馈。
+
 - `scripts/doubao_parser/` 解析器代码直接来源于该项目，保持与上游 `main` 分支同步；
 - 本项目在此基础上补充了 CLI 入口 `parse.py`、Agent 技能说明（SKILL.md）与打包分发；
 - 上游修复了解析逻辑后，可用以下命令同步：
